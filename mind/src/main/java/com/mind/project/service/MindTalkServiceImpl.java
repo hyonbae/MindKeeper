@@ -33,4 +33,7 @@ public class MindTalkServiceImpl implements MindTalkService {
 		System.out.println(customers.get(0).toString()+"=================================================================================");
 		return customers;
 	}
+	
+	
+	
 }

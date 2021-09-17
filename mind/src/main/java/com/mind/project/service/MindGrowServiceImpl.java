@@ -1,6 +1,7 @@
 package com.mind.project.service;
 
 import java.util.ArrayList;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.mind.project.model.Youtube;
 import com.mind.project.repository.YoutubeRepository;
+import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 @Service("MindGrowService")
 public class MindGrowServiceImpl implements MindGrowService {
@@ -48,6 +50,10 @@ public class MindGrowServiceImpl implements MindGrowService {
 	   
 
 		return resultList;
+	}
+	
+	public void savaYoutuveLog() {
+		
 	}
 
 }

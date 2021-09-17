@@ -18,4 +18,7 @@ public class TalkReview {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int talkReviewNum;
 
+	
+	
+	
 }

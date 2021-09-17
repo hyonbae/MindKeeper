@@ -27,6 +27,7 @@ public class Youtube {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name="YOUTUBE_NUM")
 	private int youtubeNum;
 
 	@Column
@@ -55,11 +56,6 @@ public class Youtube {
 		this.thumbnail = thumbnail;
 	}
 
-	/*
-	 * @OneToMany (fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	 * 
-	 * @JoinColumn(name="youtube_num") private List<YoutubeLog> youtubeLogList;
-	 * 
-	 */
+
 
 }
